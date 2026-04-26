@@ -21,7 +21,7 @@ export const Logo = ({ size = 32, variant = "default", withWordmark = true, clas
       />
       {withWordmark && (
         <span
-          className={`h-display text-[1.05rem] tracking-[0.22em] ${
+          className={`h-display text-[1rem] tracking-[0.24em] ${
             variant === "light" ? "text-primary-foreground" : "text-navy"
           }`}
         >
