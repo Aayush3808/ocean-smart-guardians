@@ -24,12 +24,12 @@ export const Hero = () => {
       <div className="container relative">
         {/* Logo */}
         <div className="flex flex-col items-center text-center animate-fade-up">
-          <div className="relative">
-            <span aria-hidden className="absolute inset-0 -z-10 rounded-full blur-2xl opacity-60"
-                  style={{ background: "radial-gradient(closest-side, hsl(var(--aqua)/0.55), transparent)" }} />
-            <Logo size={88} withWordmark={false} />
+          <div className="relative animate-float-slow">
+            <span aria-hidden className="absolute inset-0 -z-10 rounded-full blur-3xl opacity-70"
+                  style={{ background: "radial-gradient(closest-side, hsl(var(--aqua)/0.5), transparent)" }} />
+            <Logo size={132} withWordmark={false} />
           </div>
-          <div className="mt-5 h-display text-[1.6rem] tracking-[0.42em] text-navy">SWAMN</div>
+          <div className="mt-7 h-display text-[1.75rem] tracking-[0.42em] text-navy">SWAMN</div>
           <div className="mt-2 text-[0.72rem] uppercase tracking-[0.32em] text-muted-foreground">
             Intelligent Ocean Systems
           </div>
