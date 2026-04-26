@@ -1,16 +1,39 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useReveal } from "@/hooks/useReveal";
+import { Nav } from "@/components/swamn/Nav";
+import { Hero } from "@/components/swamn/Hero";
+import { Problem } from "@/components/swamn/Problem";
+import { About } from "@/components/swamn/About";
+import { Architecture } from "@/components/swamn/Architecture";
+import { Workflow } from "@/components/swamn/Workflow";
+import { Performance } from "@/components/swamn/Performance";
+import { Hardware } from "@/components/swamn/Hardware";
+import { Impact } from "@/components/swamn/Impact";
+import { Achievements } from "@/components/swamn/Achievements";
+import { Team } from "@/components/swamn/Team";
+import { Roadmap } from "@/components/swamn/Roadmap";
+import { CTA } from "@/components/swamn/CTA";
+import { Footer } from "@/components/swamn/Footer";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
+  useReveal();
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
+    <main className="min-h-screen bg-background">
+      <Nav />
+      <Hero />
+      <Problem />
+      <About />
+      <Architecture />
+      <Workflow />
+      <Performance />
+      <Hardware />
+      <Impact />
+      <Achievements />
+      <Team />
+      <Roadmap />
+      <CTA />
+      <Footer />
+    </main>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
