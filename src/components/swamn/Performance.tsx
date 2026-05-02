@@ -1,43 +1,54 @@
 import { SectionHeader } from "./SectionHeader";
 
-const metrics = [
-  { v: "91.7%", l: "Classification Accuracy", w: 91.7, tone: "good" },
-  { v: "5.0%",  l: "False Positive Rate",     w: 5.0,  tone: "muted" },
-  { v: "9.0%",  l: "False Negative Rate",     w: 9.0,  tone: "muted" },
-  { v: "11.4s", l: "Mean Collection Time",    w: 80,   tone: "good" },
-  { v: "92%",   l: "Docking Success",         w: 92,   tone: "good" },
-  { v: "5.5h",  l: "Continuous Operation",    w: 70,   tone: "good" },
+const capabilities = [
+  {
+    t: "Vision-Based Detection",
+    d: "An onboard camera and AI model identify floating waste in real time across changing water conditions.",
+  },
+  {
+    t: "Autonomous Navigation",
+    d: "Coordinated, self-directed movement across the surface — designed to operate without manual control.",
+  },
+  {
+    t: "Reliable Docking",
+    d: "A return-to-base routine for unloading collected waste and recharging between operational cycles.",
+  },
+  {
+    t: "Continuous Operation",
+    d: "Solar-assisted endurance enables extended runs with minimal downtime and energy overhead.",
+  },
+  {
+    t: "Sustainable Build",
+    d: "Low-impact materials and reusable hardware keep the system aligned with its environmental purpose.",
+  },
+  {
+    t: "Modular Architecture",
+    d: "Engineered to scale across rivers, lakes, and coastal zones — adaptable to varied water bodies.",
+  },
 ];
 
 export const Performance = () => (
   <section id="performance" className="relative py-28 md:py-36">
     <div className="container">
       <SectionHeader
-        eyebrow="Performance & Testing"
+        eyebrow="Capabilities"
         title={<>Engineered for <span className="h-serif text-gradient">reliability</span></>}
-        description="Real-world testing across detection, navigation, and operation — measured, refined, and documented."
+        description="The principles guiding SWAMN's design — from perception and movement to endurance and scale."
       />
 
       <div className="mt-16 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-        {metrics.map((m, i) => (
+        {capabilities.map((c, i) => (
           <div
-            key={m.l}
+            key={c.t}
             className="reveal card-premium group overflow-hidden p-7 transition-all hover:-translate-y-0.5"
             style={{ transitionDelay: `${i * 50}ms` }}
           >
-            <div className="flex items-baseline justify-between">
-              <div className="h-display text-4xl text-navy">{m.v}</div>
-              <div className="text-[0.65rem] uppercase tracking-[0.2em] text-muted-foreground">Tested</div>
+            <div className="flex items-center gap-3">
+              <span aria-hidden className="h-2 w-2 rounded-full bg-aqua" />
+              <div className="text-[0.65rem] uppercase tracking-[0.22em] text-muted-foreground">Capability</div>
             </div>
-            <p className="mt-2 text-sm text-muted-foreground">{m.l}</p>
-            <div className="mt-6 h-1.5 w-full overflow-hidden rounded-full bg-secondary">
-              <div
-                className={`h-full rounded-full transition-[width] duration-1000 ease-out ${
-                  m.tone === "good" ? "bg-aqua" : "bg-navy/40"
-                }`}
-                style={{ width: `${Math.min(100, m.w)}%` }}
-              />
-            </div>
+            <div className="mt-5 h-display text-xl text-navy">{c.t}</div>
+            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{c.d}</p>
           </div>
         ))}
       </div>

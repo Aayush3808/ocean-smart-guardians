@@ -3,24 +3,38 @@ import { SectionHeader } from "./SectionHeader";
 const team = [
   {
     name: "Rishi Singh",
-    role: "Lead Developer & Innovator",
-    sub: "President, ATL Club",
-    desc: "Focused on developing intelligent environmental systems through AI, embedded technologies, and autonomous engineering. Leading the technical innovation behind SWAMN.",
+    role: "Lead Innovator",
+    sub: "Bot & Dock Designer",
+    desc: "Leads the technical vision of SWAMN — designs the autonomous bot and docking model, and drives AI, embedded systems, and end-to-end engineering.",
     initials: "RS",
   },
   {
     name: "Vaibhav Raj",
-    role: "Co-developer",
-    sub: "ATL Vice-President",
-    desc: "Focused on collaborative innovation, technical development, system coordination, and problem-solving through technology-driven environmental solutions.",
+    role: "Co-Developer",
+    sub: "Systems & Integration",
+    desc: "Focused on collaborative development, system coordination, and problem-solving through technology-driven environmental solutions.",
     initials: "VR",
   },
   {
     name: "Aayush Kumar Singh",
     role: "Branding, Media & Communications",
     sub: "Identity & Outreach",
-    desc: "Manages SWAMN's branding, visual identity, social presence, and digital communications — building a strong, premium identity for the initiative.",
+    desc: "Shapes SWAMN's visual identity, social presence, and digital communications — building a strong, premium identity for the initiative.",
     initials: "AK",
+  },
+  {
+    name: "Manan",
+    role: "Finance Manager",
+    sub: "Budget & Resources",
+    desc: "Oversees budgeting, resource planning, and the financial stewardship that keeps SWAMN's development sustainable and accountable.",
+    initials: "MN",
+  },
+  {
+    name: "Aviraj",
+    role: "Business Evaluator",
+    sub: "Strategy & Viability",
+    desc: "Leads market analysis, viability assessment, and strategic positioning — connecting SWAMN's engineering to real-world impact.",
+    initials: "AV",
   },
 ];
 
@@ -33,7 +47,7 @@ export const Team = () => (
         description="A young team of innovators building the next generation of autonomous environmental systems."
       />
 
-      <div className="mt-16 grid gap-6 md:grid-cols-3">
+      <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {team.map((m, i) => (
           <article key={m.name} className="reveal group card-premium overflow-hidden"
                    style={{ transitionDelay: `${i * 80}ms` }}>

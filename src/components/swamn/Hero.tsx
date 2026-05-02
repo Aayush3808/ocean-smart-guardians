@@ -2,10 +2,10 @@ import { Logo } from "./Logo";
 import heroOcean from "@/assets/hero-ocean.jpg";
 
 const stats = [
-  { v: "91.7%", l: "Detection Accuracy" },
-  { v: "11.4s", l: "Mean Collection Time" },
-  { v: "92%", l: "Docking Success" },
-  { v: "$210", l: "Prototype Cost" },
+  { v: "Autonomous", l: "Self-navigating operation" },
+  { v: "AI-Assisted", l: "Vision-based detection" },
+  { v: "Solar-Powered", l: "Sustainable energy" },
+  { v: "Modular", l: "Scalable by design" },
 ];
 
 export const Hero = () => {
@@ -81,7 +81,7 @@ export const Hero = () => {
           <div className="relative mx-auto -mt-16 grid max-w-5xl grid-cols-2 gap-px overflow-hidden rounded-2xl border border-border/70 bg-border/70 shadow-card md:grid-cols-4">
             {stats.map((s) => (
               <div key={s.l} className="bg-card px-6 py-7 text-center md:py-9">
-                <div className="h-display text-3xl text-navy md:text-4xl">{s.v}</div>
+                <div className="h-display text-xl text-navy md:text-2xl">{s.v}</div>
                 <div className="mt-1.5 text-xs uppercase tracking-[0.18em] text-muted-foreground">{s.l}</div>
               </div>
             ))}

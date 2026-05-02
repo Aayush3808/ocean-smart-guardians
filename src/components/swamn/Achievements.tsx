@@ -4,7 +4,7 @@ const items = [
   "Selected among 1.5 lakh student innovations at IIT Guwahati",
   "Registered participant for IIT Delhi innovation competition",
   "INSPIRE Awards — District Level Recognition",
-  "Developed under the ATL innovation ecosystem",
+  "Self-initiated student innovation — independently designed and built",
   "Autonomous cleanup prototype successfully demonstrated",
 ];
 
