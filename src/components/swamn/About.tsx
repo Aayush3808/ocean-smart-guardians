@@ -47,7 +47,7 @@ export const About = () => (
                 </div>
                 <div className="mx-auto mt-6 h-px w-24 bg-primary-foreground/40" />
                 <p className="mx-auto mt-6 max-w-xs text-sm leading-relaxed text-primary-foreground/90">
-                  Built end-to-end by a team of student innovators under the ATL ecosystem.
+                  Built end-to-end by a self-driven team of student innovators.
                 </p>
               </div>
             </div>
