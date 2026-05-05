@@ -7,6 +7,7 @@ const team = [
     sub: "Bot & Dock Designer",
     desc: "Leads the technical vision of SWAMN — designs the autonomous bot and docking model, and drives AI, embedded systems, and end-to-end engineering.",
     initials: "RS",
+    email: "rishisingh@swamn.com",
   },
   {
     name: "Vaibhav Raj",
@@ -14,6 +15,7 @@ const team = [
     sub: "Systems & Integration",
     desc: "Focused on collaborative development, system coordination, and problem-solving through technology-driven environmental solutions.",
     initials: "VR",
+    email: "vaibhavraj@swamn.com",
   },
   {
     name: "Aayush Kumar Singh",
@@ -21,6 +23,7 @@ const team = [
     sub: "Identity & Outreach",
     desc: "Shapes SWAMN's visual identity, social presence, and digital communications — building a strong, premium identity for the initiative.",
     initials: "AK",
+    email: "aayushsingh@swamn.com",
   },
   {
     name: "Manan",
@@ -28,6 +31,7 @@ const team = [
     sub: "Budget & Resources",
     desc: "Oversees budgeting, resource planning, and the financial stewardship that keeps SWAMN's development sustainable and accountable.",
     initials: "MN",
+    email: "mananmishra@swamn.com",
   },
   {
     name: "Aviraj",
@@ -35,6 +39,7 @@ const team = [
     sub: "Strategy & Viability",
     desc: "Leads market analysis, viability assessment, and strategic positioning — connecting SWAMN's engineering to real-world impact.",
     initials: "AV",
+    email: "aviraajanand@swamn.com",
   },
 ];
 
@@ -67,6 +72,13 @@ export const Team = () => (
             </div>
             <div className="p-7">
               <p className="text-sm leading-relaxed text-muted-foreground">{m.desc}</p>
+              <a
+                href={`mailto:${m.email}`}
+                className="mt-5 inline-flex items-center gap-1.5 text-xs font-medium tracking-wide text-navy transition-colors hover:text-aqua"
+              >
+                {m.email}
+                <span aria-hidden>→</span>
+              </a>
             </div>
           </article>
         ))}

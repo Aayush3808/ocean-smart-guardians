@@ -21,7 +21,7 @@ export const CTA = () => (
         </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
-          <a href="mailto:hello@swamn.org"
+          <a href="mailto:support@swamn.com"
              className="inline-flex h-12 items-center rounded-full bg-primary-foreground px-6 text-sm font-medium text-navy transition-transform hover:-translate-y-0.5">
             Contact Team
           </a>
