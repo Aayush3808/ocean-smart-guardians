@@ -103,6 +103,11 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    /* Prevent italic/serif glyph clipping on the trailing letter */
+    display: inline-block;
+    padding-right: 0.12em;
+    padding-bottom: 0.08em;
+    margin-right: -0.06em;
   }
   .glass {
     background: hsl(0 0% 100% / 0.65);
