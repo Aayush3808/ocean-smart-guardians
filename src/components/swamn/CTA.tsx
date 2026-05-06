@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const CTA = () => (
   <section id="cta" className="relative overflow-hidden py-28 md:py-36">
     <div aria-hidden className="absolute inset-0 bg-navy" />
@@ -25,10 +27,10 @@ export const CTA = () => (
              className="inline-flex h-12 items-center rounded-full bg-primary-foreground px-6 text-sm font-medium text-navy transition-transform hover:-translate-y-0.5">
             Contact Team
           </a>
-          <a href="/join"
+          <Link to="/join"
              className="inline-flex h-12 items-center rounded-full border border-primary-foreground/30 px-6 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary-foreground/10">
             Join the Mission
-          </a>
+          </Link>
           <a href="#impact"
              className="inline-flex h-12 items-center px-2 text-sm font-medium text-primary-foreground/80 transition-colors hover:text-primary-foreground">
             Explore the vision →
