@@ -74,7 +74,7 @@ const Join = () => {
                 onChange={(e) => setName(e.target.value)}
                 maxLength={100}
                 className="mt-2 w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-navy outline-none transition-colors focus:border-navy/40"
-                placeholder="Aagman Gupta"
+                placeholder="Aayush Kumar Singh"
               />
             </label>
             <label className="block">
@@ -88,7 +88,7 @@ const Join = () => {
                 onChange={(e) => setEmail(e.target.value)}
                 maxLength={255}
                 className="mt-2 w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-navy outline-none transition-colors focus:border-navy/40"
-                placeholder="you@example.com"
+                placeholder="aayushsingh@swamn.com"
               />
             </label>
           </div>

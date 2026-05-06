@@ -42,12 +42,12 @@ const team = [
     email: "aviraajanand@swamn.com",
   },
   {
-    name: "Aagman Gupta",
-    role: "Tracker Systems & Departure Admin",
-    sub: "Operations & Logistics",
-    desc: "Works with SWAMN to improve tracker systems and oversees departure administration — keeping field operations precise, organised, and on schedule.",
-    initials: "AG",
-    email: "aagmangupta@swamn.com",
+    name: "Satvik",
+    role: "Pitch & Storytelling",
+    sub: "Narrative & Presentation",
+    desc: "Crafts SWAMN's pitch and presentation materials — translating engineering and impact into compelling stories for judges, partners, and the public.",
+    initials: "SK",
+    email: "satvik@swamn.com",
   },
 ];
 
