@@ -41,6 +41,14 @@ const team = [
     initials: "AV",
     email: "aviraajanand@swamn.com",
   },
+  {
+    name: "Aagman Gupta",
+    role: "Tracker Systems & Departure Admin",
+    sub: "Operations & Logistics",
+    desc: "Works with SWAMN to improve tracker systems and oversees departure administration — keeping field operations precise, organised, and on schedule.",
+    initials: "AG",
+    email: "aagmangupta@swamn.com",
+  },
 ];
 
 export const Team = () => (
