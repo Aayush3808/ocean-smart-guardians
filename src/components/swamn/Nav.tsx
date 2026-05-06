@@ -41,7 +41,7 @@ export const Nav = () => {
           ))}
         </nav>
         <a
-          href="#cta"
+          href="/join"
           className="hidden sm:inline-flex h-9 items-center rounded-full bg-navy px-4 text-xs font-medium tracking-wide text-primary-foreground transition-all hover:bg-navy-deep"
         >
           Join the Mission

@@ -25,7 +25,7 @@ export const CTA = () => (
              className="inline-flex h-12 items-center rounded-full bg-primary-foreground px-6 text-sm font-medium text-navy transition-transform hover:-translate-y-0.5">
             Contact Team
           </a>
-          <a href="#top"
+          <a href="/join"
              className="inline-flex h-12 items-center rounded-full border border-primary-foreground/30 px-6 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary-foreground/10">
             Join the Mission
           </a>
