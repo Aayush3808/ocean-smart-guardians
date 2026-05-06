@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { Logo } from "./Logo";
 
 const links = [
@@ -40,12 +41,12 @@ export const Nav = () => {
             </a>
           ))}
         </nav>
-        <a
-          href="/join"
+        <Link
+          to="/join"
           className="hidden sm:inline-flex h-9 items-center rounded-full bg-navy px-4 text-xs font-medium tracking-wide text-primary-foreground transition-all hover:bg-navy-deep"
         >
           Join the Mission
-        </a>
+        </Link>
       </div>
     </header>
   );
