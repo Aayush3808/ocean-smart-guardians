@@ -2,6 +2,14 @@ import { SectionHeader } from "./SectionHeader";
 
 const team = [
   {
+    name: "Aviraaj",
+    role: "Business Evaluator",
+    sub: "Strategy & Viability",
+    desc: "Leads market analysis, viability assessment, and strategic positioning — connecting SWAMN's engineering to real-world impact.",
+    initials: "AV",
+    email: "aviraajanand@swamn.com",
+  },
+  {
     name: "Rishi Singh",
     role: "Lead Innovator",
     sub: "Bot & Dock Designer",
@@ -13,7 +21,7 @@ const team = [
     name: "Vaibhav Raj",
     role: "Co-Developer",
     sub: "Systems & Integration",
-    desc: "Focused on collaborative development, system coordination, and problem-solving through technology-driven environmental solutions.",
+    desc: "Shapes SWAMN's visual identity, social presence, and digital communications — building a strong, premium identity for the initiative.",
     initials: "VR",
     email: "vaibhavraj@swamn.com",
   },
@@ -32,14 +40,6 @@ const team = [
     desc: "Oversees budgeting, resource planning, and the financial stewardship that keeps SWAMN's development sustainable and accountable.",
     initials: "MN",
     email: "mananmishra@swamn.com",
-  },
-  {
-    name: "Aviraj",
-    role: "Business Evaluator",
-    sub: "Strategy & Viability",
-    desc: "Leads market analysis, viability assessment, and strategic positioning — connecting SWAMN's engineering to real-world impact.",
-    initials: "AV",
-    email: "aviraajanand@swamn.com",
   },
   {
     name: "Satvik",
