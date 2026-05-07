@@ -19,8 +19,8 @@ const team = [
   },
   {
     name: "Vaibhav Raj",
-    role: "Co-Developer",
-    sub: "Systems & Integration",
+    role: "Branding, Media & Communications",
+    sub: "Identity & Outreach",
     desc: "Shapes SWAMN's visual identity, social presence, and digital communications — building a strong, premium identity for the initiative.",
     initials: "VR",
     email: "vaibhavraj@swamn.com",
