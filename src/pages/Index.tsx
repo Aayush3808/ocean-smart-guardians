@@ -12,7 +12,9 @@ import { Achievements } from "@/components/swamn/Achievements";
 import { Team } from "@/components/swamn/Team";
 import { Roadmap } from "@/components/swamn/Roadmap";
 import { CTA } from "@/components/swamn/CTA";
+import { FAQ } from "@/components/swamn/FAQ";
 import { Footer } from "@/components/swamn/Footer";
+import { Chatbot } from "@/components/swamn/Chatbot";
 
 const Index = () => {
   useReveal();
@@ -31,7 +33,9 @@ const Index = () => {
       <Team />
       <Roadmap />
       <CTA />
+      <FAQ />
       <Footer />
+      <Chatbot />
     </main>
   );
 };
