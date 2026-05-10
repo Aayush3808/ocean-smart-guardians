@@ -10,15 +10,20 @@ interface LogoProps {
 export const Logo = ({ size = 32, variant = "default", withWordmark = true, className = "" }: LogoProps) => {
   return (
     <div className={`flex items-center gap-2.5 ${className}`}>
-      <img
-        src={mark}
-        alt="SWAMN"
-        width={size}
-        height={size}
-        style={{ width: size, height: size }}
-        className="object-contain select-none"
-        draggable={false}
-      />
+      <div
+        className="shrink-0"
+        style={{ width: size, height: size, padding: size * 0.08 }}
+      >
+        <img
+          src={mark}
+          alt="SWAMN"
+          width={size}
+          height={size}
+          style={{ width: "100%", height: "100%" }}
+          className="block object-contain select-none"
+          draggable={false}
+        />
+      </div>
       {withWordmark && (
         <span
           className={`h-display text-[1rem] tracking-[0.24em] ${
