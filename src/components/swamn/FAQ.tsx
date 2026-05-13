@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: "Where will SWAMN be deployed?",
-    a: "Our roadmap targets local water bodies first, with the goal of scaling to larger rivers and coastal areas as the docking and bot systems mature.",
+    a: "Our roadmap starts with local rivers, lakes and ponds, then scales to larger rivers, harbors and coastal zones — and ultimately to the open ocean. SWAMN is built for all water bodies, not just small ones.",
   },
   {
     q: "Do you have a working prototype?",
